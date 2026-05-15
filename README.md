@@ -30,6 +30,18 @@ uv run python src/main.py build
 uv run python src/main.py ask "What city is the birthplace of the person who discovered radium?"
 ```
 
+## Results
+
+Tested on a demo corpus of Wikipedia-style snippets about scientists, discoveries, and places (multi-hop capable).
+
+| Query | Answer |
+|-------|--------|
+| What country is Ulm in? | Germany |
+| What city is the birthplace of the person who discovered radium? | Warsaw |
+| Who discovered radium? | Marie Curie |
+
+KG built: 61 nodes, 65 triples across the demo corpus.
+
 ## Project Structure
 
 ```
